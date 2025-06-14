@@ -1,3 +1,5 @@
+package Variable;
+
 public class Ex001_Variable {
     public static void main(String[] args) {
         // Declare variables

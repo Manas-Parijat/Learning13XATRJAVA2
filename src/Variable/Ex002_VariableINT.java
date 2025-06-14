@@ -1,3 +1,5 @@
+package Variable;
+
 public class Ex002_VariableINT {
     public static void main(String[] args) {
         int age = 23;
