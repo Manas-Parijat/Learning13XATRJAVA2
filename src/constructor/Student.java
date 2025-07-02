@@ -1,11 +1,9 @@
-package constructor;
-
-class Student {
+static class Stu {
     String name;
     int age;
 
     // Parameterized constructor
-    Student(String n, int a) {
+    Stu(String n, int a) {
         name = n;
         age = a;
     }
@@ -16,11 +14,11 @@ class Student {
     }
 }
 
-public class Main {
+
     public static void main(String[] args) {
         // Passing values to constructor
-        Student s1 = new Student("Aman", 20);
+        Stu s1 = new Stu("Aman", 20);
         s1.display();
     }
-}
+
 
